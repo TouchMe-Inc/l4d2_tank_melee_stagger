@@ -25,7 +25,7 @@ public void OnPluginStart()
 {
     HookEvent("player_hurt", Event_PlayerHurt);
 
-    g_cvDelay = CreateConVar("sm_tms_delay", "1.5", .hasMin = true, .min = 1.0);
+    g_cvDelay = CreateConVar("sm_tms_delay", "1.75", .hasMin = true, .min = 1.0);
 }
 
 public void OnMapStart()
